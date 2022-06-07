@@ -5,20 +5,21 @@ import Projects from './pages/Projects'
 import Experience from './pages/Experience'
 import Navabr from './components/Navbar';
 import Footer from './components/Footer';
-
+import ProjectDisplay from './pages/ProjectDisplay';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navabr/>
-        <Footer/>
+        
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/experience" element={<Experience/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/project/:id" element={<ProjectDisplay/>} />
         </Routes>
-
+        <Footer/>
       </Router>
     </div>
   );
