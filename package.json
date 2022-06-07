@@ -1,5 +1,6 @@
 {
   "name": "portifolio-site",
+  "homepage": "https://ossamumaeda.github.io/portifolio-site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
